@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+image {
+    display: block;
+    width: 100%;
+}
+
+.button {
+    display: block;
+    background: none;
+    border: 2px solid #000;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.question-title {
+    list-style: decimal;
+}
+
+.li-question {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.value {
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    padding: 0;
+}
+
+input {
+    margin: 0 10px 0 0;
+}
+
+.label {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+
+.question-section {
+    display: flex;
+    flex-flow: column;
+    border: 2px solid #000;
+    padding: 10px 10px;
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+}
+
+.quiz-form {
+    max-width: 650px;
+    display: block;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.main-title {
+    display: block;
+    text-align: start;
+    margin: 0 auto;
+    padding: 0 0 0 15px;
+}
+
+.main-section {
+    display: block;
+    max-width: 700px;
+    padding: 20px 0 20px 0;
+    margin: 20px auto;
+    border: 3px solid black;
+}
+
+.final_not_ok {
+    display: block;
+    padding: 20px 5px 20px 5px;
+    margin: 50px auto;
+    text-align: center;
+    border: 5px solid red;
+    max-width: 300px;
+}
+
+.p_final_ok {
+    display: block;
+    padding: 20px 5px 20px 5px;
+    margin: 50px auto;
+    text-align: center;
+    border: 5px solid green;
+    max-width: 300px;
+}
